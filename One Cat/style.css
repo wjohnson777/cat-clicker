@@ -1,0 +1,49 @@
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.inline {
+	display: inline-block;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+#img {
+	height: 300px;
+	margin: 50px;
+	float: left;
+}
+
+img {
+	height: 400px;
+	margin: auto;
+}
+
+#count {
+	float: right;
+	height: 300px;
+	width: 300px;
+}
+
+#counter {
+	margin: 50px;
+	float: left;
+	position: center;
+}
+
+c {
+	font-size: 50px;
+	position: center;
+}
