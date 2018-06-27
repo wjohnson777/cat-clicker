@@ -1,0 +1,44 @@
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+.cat:hover {
+	cursor: pointer;
+}
+
+img {
+	max-height: 350px;
+	max-width: 350px;
+}
+
+.name,
+.count {
+	max-width: 500px;
+	font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.count {
+	margin: 10px;
+}
